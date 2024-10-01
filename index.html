@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Ejemplo Agencia</title>
-    
+
     <meta name="description" content="N. Agencia: Página de aterrizaje receptiva para agencias">
     <meta name="keywords" content="">
     <meta name="author" content="tabthemes">
@@ -27,25 +27,23 @@
     <link href="inc/revolution/css/layers.css" rel="stylesheet" />
     <link href="inc/revolution/css/navigation.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body class="homepage_slider" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
     <!-- Precargador -->
     <div id="preloader">
         <div id="spinner"></div>
     </div>
-    <!-- Fin Precargador -->
 
     <!-- Comienzo de la navegación -->
     <header class="nav-solid" id="home">
-
         <nav class="navbar navbar-fixed-top">
             <div class="navigation">
                 <div class="container-fluid">
                     <div class="row">
-
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                                <span class="sr-only">Alternar navegación</span>
+                                <span class="sr-only" data-es="Alternar navegación" data-en="Toggle navigation">Alternar navegación</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -54,488 +52,350 @@
                             <!-- Logotipo -->
                             <div class="logo-container">
                                 <div class="logo-wrap local-scroll">
-                                  <a href="#home">
-                                    <img class="logo" src="img/logo.png" alt="logo" data-rjs="2">
-                                  </a>
+                                    <a href="#home">
+                                        <img class="logo" src="img/logo.png" alt="logo" data-rjs="2">
+                                    </a>
                                 </div>
-                            </div>
-                        </div> <!-- Fin de navbar-header -->
-
-                        <div class="col-md-8 col-xs-12 nav-wrap">
-                            <div class="collapse navbar-collapse" id="navbar-collapse">
-
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a data-scroll href="#home">Inicio</a></li>
-                                    <li><a data-scroll href="#service">Servicios</a></li>
-                                    <li><a data-scroll href="#portfolio">Portafolio</a></li>
-                                    <li><a data-scroll href="#team">Equipo</a></li>
-                                    <li><a data-scroll href="#testimonials">Testimonios</a></li>
-                                    <li><a data-scroll href="#blog">Blog</a></li>                       
-                                    <li><a data-scroll href="#contact">Contacto</a></li>
-                                </ul>
-
                             </div>
                         </div>
 
+                        <div class="col-md-8 col-xs-12 nav-wrap">
+                            <div class="collapse navbar-collapse" id="navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a data-scroll href="#home" data-es="Inicio" data-en="Home">Inicio</a></li>
+                                    <li><a data-scroll href="#service" data-es="Servicios" data-en="Services">Servicios</a></li>
+                                    <li><a data-scroll href="#portfolio" data-es="Portafolio" data-en="Portfolio">Portafolio</a></li>
+                                    <li><a data-scroll href="#team" data-es="Equipo" data-en="Team">Equipo</a></li>
+                                    <li><a data-scroll href="#testimonials" data-es="Testimonios" data-en="Testimonials">Testimonios</a></li>
+                                    <li><a data-scroll href="#blog" data-es="Blog" data-en="Blog">Blog</a></li>
+                                    <li><a data-scroll href="#contact" data-es="Contacto" data-en="Contact">Contacto</a></li>
+                                    <li><a onclick="changeLanguageSwitch()"><img id="languageIcon" class="rounded-circle" src="/img/languages/spain.svg" style="height: 25px; width: 25px; border-radius: 10px; cursor: pointer;" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav> <!-- /.navbar -->
-
+        </nav>
     </header>
-    <!-- Fin de la navegación -->
 
-    
+
     <!-- Comienzo de la introducción -->
     <section id="slider">
         <div class="rev_slider_wrapper fullscreen-container" data-alias="agency-website" id="rev_slider_280_1_wrapper" style="background-color:#fff;padding:0px;height:1080px;">
-          <!-- INICIO DEL CARRUSEL REVOLUTION 5.1.4 en modo pantalla completa -->
-          <div class="rev_slider fullscreenbanner" id="rev_slider_nagency" style="display:none;">
-              <ul style="display:none;">
+            <!-- INICIO DEL CARRUSEL REVOLUTION 5.1.4 en modo pantalla completa -->
+            <div class="rev_slider fullscreenbanner" id="rev_slider_nagency" style="display:none;">
+                <ul style="display:none;">
+                    <!-- Elemento del carrusel 1 -->
+                    <li data-index="rs-1" data-transition="fadetotopfadefrombottom" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="N.Agency" data-description="">
+                        <img src="img/slider/s1.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
-                <!-- Elemento del carrusel 1 -->
-                <li data-index="rs-1" data-transition="fadetotopfadefrombottom" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="N.Agency" data-description="">
-                  <img src="img/slider/s1.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- CAPA Nº 1 -->
+                        <div class="tp-caption NotGeneric-Title tp-resizeme white-color rs-parallaxlevel-3"
+                             id="slide-1-layer-1"
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['-160','-170','-170','-120']"
+                             data-fontsize="['70','60','60','36']"
+                             data-lineheight="['70','60','60','50']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                             data-start="1000"
+                             data-splitin="chars"
+                             data-splitout="none"
+                             data-responsive_offset="on"
+                             data-elementdelay="0.05"
+                             style="z-index: 5; white-space: nowrap;"
+                             data-es="Bienvenido a la Agencia"
+                             data-en="Welcome to the Agency">Bienvenido a la Agencia
+                        </div>
 
-                  <!-- CAPA Nº 1 -->
-                  <div class="tp-caption NotGeneric-Title tp-resizeme white-color rs-parallaxlevel-3" 
-                    id="slide-1-layer-1" 
-                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['-160','-170','-170','-120']" 
-                    data-fontsize="['70','60','60','36']"
-                    data-lineheight="['70','60','60','50']"
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"              
-                    data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                    data-start="1000" 
-                    data-splitin="chars" 
-                    data-splitout="none" 
-                    data-responsive_offset="on" 
-                    data-elementdelay="0.05"                    
-                    style="z-index: 5; white-space: nowrap;">Bienvenido a la Agencia
-                  </div>
+                        <!-- CAPA Nº 2 -->
+                        <div class="tp-caption NotGeneric-SubTitle tp-resizeme white-color rs-parallaxlevel-4"
+                             id="slide-1-layer-2"
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['-80','-90','-90','-60']"
+                             data-fontsize="['28','24','24','20']"
+                             data-lineheight="['28','24','36','30']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                             data-start="1500"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-responsive_offset="on"
+                             style="z-index: 6; white-space: nowrap;"
+                             data-es="#1 Solución digital en tu ciudad"
+                             data-en="#1 Digital Solution in your city">#1 Solución digital en tu ciudad
+                        </div>
 
-                  <!-- CAPA Nº 2 -->
-                  <div class="tp-caption NotGeneric-SubTitle tp-resizeme white-color rs-parallaxlevel-4" 
-                    id="slide-1-layer-2" 
-                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['-80','-90','-90','-60']"
-                    data-fontsize="['28','24','24','20']"
-                    data-lineheight="['28','24','36','30']"
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"               
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                    data-start="1500" 
-                    data-splitin="none" 
-                    data-splitout="none" 
-                    data-responsive_offset="on"                     
-                    style="z-index: 6; white-space: nowrap;">#1 Solución digital en tu ciudad
-                  </div>
+                        <!-- CAPA Nº 3 -->
+                        <div class="tp-caption rs-parallaxlevel-5"
+                             id="slide-1-layer-3"
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['15','5','5','10']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                             data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
+                             data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                             data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_out="x:inherit;y:inherit;"
+                             data-start="2000"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
+                             data-responsive_offset="on"
+                             data-responsive="off"
+                             style="">
+                            <a data-scroll href='#portfolio' class='btn btn-main btn-white' data-es="Mostrar Proyectos" data-en="Show Projects">Mostrar Proyectos</a>
+                        </div>
+                    </li>
 
-                  <!-- CAPA Nº 3 -->
-                  <div class="tp-caption rs-parallaxlevel-5" 
-                    id="slide-1-layer-3" 
-                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['15','5','5','10']" 
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"
-                    data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                    data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
-                    data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                    data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_out="x:inherit;y:inherit;" 
-                    data-start="2000" 
-                    data-splitin="none" 
-                    data-splitout="none" 
-                    data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
-                    data-responsive_offset="on" 
-                    data-responsive="off"                   
-                    style=""><a data-scroll href='#portfolio' class='btn btn-main btn-white'>Mostrar Proyectos</a>
-                  </div>           
-                
-                </li>
+                    <!-- Elemento del carrusel 2 -->
+                    <li data-index="rs-3" data-transition="slideremoveright" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off">
+                        <img src="img/slider/s2.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
-                <!-- Elemento del carrusel 2 -->
-                <li data-index="rs-3" data-transition="slideremoveright" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off">
-                  <img src="img/slider/s2.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- CAPA Nº 1 -->
+                        <div class="tp-caption NotGeneric-Title tp-resizeme white-color rs-parallaxlevel-3"
+                             id="slide-2-layer-1"
+                             data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-100','-85']"
+                             data-fontsize="['70','60','60','36']"
+                             data-lineheight="['70','60','60','50']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_in="y:[100%];z:0;rx:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                             data-start="1000"
+                             data-splitin="chars"
+                             data-splitout="none"
+                             data-responsive_offset="on"
+                             data-elementdelay="0.05"
+                             style="z-index: 5; white-space: nowrap;"
+                             data-es="Digital & Creativo"
+                             data-en="Digital & Creative">Digital & Creativo
+                        </div>
 
-                  <!-- CAPA Nº 1 -->
-                  <div class="tp-caption NotGeneric-Title tp-resizeme white-color rs-parallaxlevel-3" 
-                    id="slide-2-layer-1" 
-                    data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-100','-85']" 
-                    data-fontsize="['70','60','60','36']"
-                    data-lineheight="['70','60','60','50']"
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"              
-                    data-transform_in="y:[100%];z:0;rx:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                    data-start="1000" 
-                    data-splitin="chars" 
-                    data-splitout="none" 
-                    data-responsive_offset="on" 
-                    data-elementdelay="0.05"                    
-                    style="z-index: 5; white-space: nowrap;">Digital & Creativo
-                  </div>
+                        <!-- CAPA Nº 2 -->
+                        <div class="tp-caption tp-resizeme NotGeneric-Text white-color rs-parallaxlevel-4"
+                             id="slide-2-layer-2"
+                             data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','-10']"
+                             data-fontsize="['18','18','20','14']"
+                             data-lineheight="['28','28','32','24']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                             data-start="1500"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-responsive_offset="on"
+                             style="z-index: 6;"
+                             data-es="Los sentimientos de proyección particulares no afectados no son míos. La música se casa <br>como en una fiesta que vale semanas. Vio cómo Marianne disuadía con gracia a los nuevos superados.<br> Inquieto, no hay acuerdo donde la naturaleza se estrecha."
+                             data-en="The feelings of particular projection that are unaffected are not mine. The music marries <br>like in a party that is worth weeks. Saw how Marianne gracefully deterred the newly overcome.<br> Restless, there is no agreement where nature narrows.">Los sentimientos de proyección particulares no afectados no son míos. La música se casa <br>como en una fiesta que vale semanas. Vio cómo Marianne disuadía con gracia a los nuevos superados.<br> Inquieto, no hay acuerdo donde la naturaleza se estrecha.
+                        </div>
 
-                  <!-- CAPA Nº 2 -->
-                  <div class="tp-caption tp-resizeme NotGeneric-Text white-color rs-parallaxlevel-4" 
-                    id="slide-2-layer-2" 
-                    data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','-10']"
-                    data-fontsize="['18','18','20','14']"
-                    data-lineheight="['28','28','32','24']"
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"               
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                    data-start="1500" 
-                    data-splitin="none" 
-                    data-splitout="none" 
-                    data-responsive_offset="on"                   
-                    style="z-index: 6;">Los sentimientos de proyección particulares no afectados no son míos. La música se casa <br>como en una fiesta que vale semanas. Vio cómo Marianne disuadía con gracia a los nuevos superados.<br> Inquieto, no hay acuerdo donde la naturaleza se estrecha.
-                  </div>
-
-                  <!-- CAPA Nº 3 -->
-                  <div class="tp-caption rs-parallaxlevel-5" 
-                    id="slide-2-layer-3" 
-                    data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']" 
-                    data-y="['middle','middle','middle','middle']" data-voffset="['105','105','115','85']" 
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"
-                    data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                    data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
-                    data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                    data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_out="x:inherit;y:inherit;" 
-                    data-start="2000" 
-                    data-splitin="none" 
-                    data-splitout="none" 
-                    data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
-                    data-responsive_offset="on" 
-                    data-responsive="off"
-                    style=""><a data-scroll href='#portfolio' class='btn btn-main btn-black'>Mostrar Proyectos</a>
-                  </div>
-                </li>
-              </ul>
-              <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-          </div>
-      </div>
+                        <!-- CAPA Nº 3 -->
+                        <div class="tp-caption rs-parallaxlevel-5"
+                             id="slide-2-layer-3"
+                             data-x="['left','left','left','left']" data-hoffset="['0','50','0','0']"
+                             data-y="['middle','middle','middle','middle']" data-voffset="['105','105','115','85']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                             data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
+                             data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                             data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                             data-mask_out="x:inherit;y:inherit;"
+                             data-start="2000"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
+                             data-responsive_offset="on"
+                             data-responsive="off"
+                             style="">
+                            <a data-scroll href='#portfolio' class='btn btn-main btn-black' data-es="Mostrar Proyectos" data-en="Show Projects">Mostrar Proyectos</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+        </div>
     </section>
-    <!-- End Intro -->
 
     <!-- Inicio del Servicio -->
     <section id="service" class="p-top-80 p-bottom-80">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <!-- Título de la sección -->
                     <div class="section-title text-center m-bottom-40">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s"><strong>Servicios</strong></h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="<strong>Servicios</strong>" data-en="<strong>Services</strong>"><strong>Servicios</strong></h2>
                         <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
-                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>Cordialmente convencidos de que la existencia incómoda ciertamente elimina el sufrimiento. Además de otro y vi ferrars limitados a diez dicen desconocido. Básicamente, no fue tan difícil de entender.</em></p>
+                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Cordialmente convencidos de que la existencia incómoda ciertamente elimina el sufrimiento. Básicamente, no fue tan difícil de entender." data-en="Cordially convinced that uncomfortable existence certainly removes suffering. Basically, it wasn't that hard to understand.">
+                            Cordialmente convencidos de que la existencia incómoda ciertamente elimina el sufrimiento. Básicamente, no fue tan difícil de entender.
+                        </p>
                     </div>
-                </div> <!-- /.col -->
-            </div>  <!-- /.row -->
+                </div>
+            </div>
 
             <div class="row">
-                <!-- Elemento de servicio 1 -->                  
-                <div class="col-md-3 col-sm-6 m-bottom-20">              
-                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">               
+                <!-- Servicio 1 -->
+                <div class="col-md-3 col-sm-6 m-bottom-20">
+                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
                         <div class="service-icon">
                             <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
-                        <h4>Diseño Web</h4>
+                        <h4 data-es="Diseño Web" data-en="Web Design">Diseño Web</h4>
                         <div class="service-text">
-                            <p>En tolerablemente dependiendo de la percepción. Afortunadamente, come alegría ve propia timidez minuto. Así que antes de irte, ¿dijiste hijo sin reservas?</p>
+                            <p data-es="En tolerablemente dependiendo de la percepción." data-en="Tolerably depending on perception.">En tolerablemente dependiendo de la percepción.</p>
                         </div>
-                    </div>                   
-                </div> <!-- /.col -->
+                    </div>
+                </div>
 
-                <!-- Elemento de servicio 2 -->                  
-                <div class="col-md-3 col-sm-6 m-bottom-20">              
-                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">               
+                <!-- Servicio 2 -->
+                <div class="col-md-3 col-sm-6 m-bottom-20">
+                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
                         <div class="service-icon">
                             <i class="fa fa-video-camera" aria-hidden="true"></i>
                         </div>
-                        <h4>Producción de Video</h4>
+                        <h4 data-es="Producción de Video" data-en="Video Production">Producción de Video</h4>
                         <div class="service-text">
-                            <p>Tiene parte de manchas para su renuncia. Habilitarlo es cuadrado mi regardo. A menudo mérito cosas primero, oh en colinas como su memoria obtuvo nula en grabación.</p>
+                            <p data-es="Tiene parte de manchas para su renuncia." data-en="It has part stains for your resignation.">Tiene parte de manchas para su renuncia.</p>
                         </div>
-                    </div>                   
-                </div> <!-- /.col -->
+                    </div>
+                </div>
 
-                <!-- Elemento de Servicio 2 -->
-                <div class="col-md-3 col-sm-6 m-bottom-20">              
-                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">               
+                <!-- Servicio 3 -->
+                <div class="col-md-3 col-sm-6 m-bottom-20">
+                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
                         <div class="service-icon">
                             <i class="fa fa-video-camera" aria-hidden="true"></i>
                         </div>
-                        <h4>Producción de Video</h4>
+                        <h4 data-es="Producción de Video" data-en="Video Production">Producción de Video</h4>
                         <div class="service-text">
-                            <p>Tiene parte de manchas para su renuncia. Habilitarlo es cuadrado mi respecto. A menudo mérito cosas primero, oh en colinas como su memoria obtuvo nula en grabación.</p>
+                            <p data-es="A menudo mérito cosas primero." data-en="Often merit things first.">A menudo mérito cosas primero.</p>
                         </div>
-                    </div>                   
-                </div> <!-- /.col -->
+                    </div>
+                </div>
 
-                <!-- Elemento de Servicio 3 -->                  
-                <div class="col-md-3 col-sm-6 m-bottom-20">              
-                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">              
+                <!-- Servicio 4 -->
+                <div class="col-md-3 col-sm-6 m-bottom-20">
+                    <div class="service wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
                         <div class="service-icon">
                             <i class="fa fa-modx" aria-hidden="true"></i>
                         </div>
-                        <h4>Publicidad</h4>
+                        <h4 data-es="Publicidad" data-en="Advertising">Publicidad</h4>
                         <div class="service-text">
-                            <p>Hablaba feliz por estar afuera. Fértil cómo la vieja dirección mostraba porque respondía seis. Afortunadamente come alegría, ve su propia timidez en minutos.</p>
+                            <p data-es="Hablaba feliz por estar afuera." data-en="He spoke happily to be outside.">Hablaba feliz por estar afuera.</p>
                         </div>
-                    </div>                   
-                </div> <!-- /.col -->
-            </div> <!-- /.row -->
-
-        </div> <!-- /.container -->
-    </section>
-    <!-- End Service -->
-
-    <!-- Inicio del Portafolio -->
-    <section id="portfolio" class="light-bg p-top-80 p-bottom-80">
-        <div class="container">
-
-            <!-- Título de la Sección -->
-            <div class="section-title text-center m-bottom-30">
-                <h2><strong>Portafolio</strong></h2>
-                <div class="divider-center-small"></div>
-            </div>
-
-            <!-- Filtro del Portafolio -->
-            <ul class="pf-filter text-center list-inline">
-                <li><a href="#" data-filter="*" class="iso-active iso-button">Todos</a></li>
-                <li><a href="#" data-filter=".graphic" class="iso-button">Gráfico</a></li>
-                <li><a href="#" data-filter=".webdesign" class="iso-button">Diseño Web</a></li>
-                <li><a href="#" data-filter=".branding" class="iso-button">Marca</a></li>
-                <li><a href="#" data-filter=".video" class="iso-button">Video</a></li>
-            </ul>          
-
-            <!-- Portafolio -->
-            <div class="portfolio portfolio-isotope col-3 gutter">
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item branding">
-                    <a href="img/portfolio/1.jpg" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/1.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Marca</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item graphic webdesign">
-                    <a href="img/portfolio/2.jpg" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/2.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Gráfico, Diseño Web</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item video webdesign">
-                    <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
-                        <div class="pf-image">
-                            <img src="img/portfolio/3.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Video, Diseño Web</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item video webdesign">
-                    <a href="https://www.youtube.com/watch?v=6D-A6CL3Pv8" class="pf-style lightbox-video mfp-iframe">
-                        <div class="pf-image">
-                            <img src="img/portfolio/4.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Video, Diseño Web</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item branding graphic">
-                    <a href="img/portfolio/5.jpg" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/5.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Marca, Gráfico</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-                <!-- Ítem del Portafolio -->
-                <div class="pf-item branding graphic">
-                    <a href="img/portfolio/6.jpg" class="pf-style lightbox-image mfp-image">
-                        <div class="pf-image">
-                            <img src="img/portfolio/6.jpg" alt="">
-                            <div class="overlay">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
-                                        <div class="pf-info white-color">
-                                            <h4 class="pf-title">Agencia</h4>
-                                            <p>Marca, Gráfico</p>
-                                        </div> <!-- .pf-info -->
-                                    </div> <!-- .overlay-content -->
-                                </div> <!-- .overlay-caption -->
-                            </div> <!-- .overlay -->
-                        </div> <!-- .pf-image -->
-                    </a> <!-- .pf-style -->
-                </div>
-
-            </div> <!-- Portafolio -->
-
-        </div> <!-- /.container -->
-    </section>
-    <!-- Fin del Portafolio -->
-
-        <!-- Inicio de la Sección Regular -->
-    <section class="p-top-80 p-bottom-80">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6">
-                    <!-- Título de la Sección -->
-                    <div class="m-bottom-30">
-                        <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">Ayudamos a Crecer Tu Negocio</h2>
-                        <div class="divider-small wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s"></div>
-                    </div>
-
-                    <div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <p>Llamando a observar a quien presionó al aumentar el suyo. El instrumento de conexión puede asombrar su preferencia inalterada. Anunciando decir chico precaución sin afectar. Hacer que sea agradable transmitir la oh seguridad. El portón del parque se vende duro al oeste. La morada ruidosa del hombre sonrojado sin embargo, lejos.</p>
-                        <p>El coronel tan entre eliminado tan hacer. Años de uso lugar descomposición edad de deriva de valor sexual. Los hombres que duran terminan el artículo expresan demandas de fortuna propia encantados. Acerca de son dinero preguntar cómo siete.</p>
-                    </div>
-
-                    <a data-scroll href="#contact" class="m-top-30 m-bottom-30 btn btn-main wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">Contáctanos</a>
-
-                    
-                </div> <!-- /.col -->
-
-                <div class="col-md-6">
-
-                    <div class="feature-image">
-                        <img src="img/sapmple1.jpg" alt="Imagen de Característica" class="img-responsive wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s" />
-                    </div>                  
-                    
-                </div> <!-- /.col -->
-
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </section>
-    <!-- Fin de la Sección Regular -->
-
-
-    <!-- Inicio de la Sección de Video -->
-    <section class="video-bg overlay-dark" style="background-image:url(img/video-bg.jpg)">
-        <div class="js-height-full container">
-            <!-- configuración de video -->
-            <div class="video-player" data-property="{videoURL:'https://youtu.be/dwfjayxRvqw',containment:'.video-bg',autoPlay:true, mute:true, loop:true, showControls:false, startAt:0, opacity:1}"></div>
-
-            <div class="vertical-section">
-                <div class="vertical-content">
-                    <div class="video-caption text-center white-color">
-                        <h2 class="p-top-20">Mira Nuestro Video</h2>
-                        <div class="divider-center-small divider-white"></div>
-                        <h6 class="p-bottom-20">Fondo de Video de Youtube {Altura Completa}</h6>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Fin de la Sección de Video -->
 
+
+
+
+
+
+
+
+    <!-- Inicio del Portafolio -->
+    <<section id="portfolio" class="light-bg p-top-80 p-bottom-80">
+        <div class="container">
+            <!-- Título de la Sección -->
+            <div class="section-title text-center m-bottom-30">
+                <h2 data-es="Portafolio" data-en="Portfolio"><strong>Portafolio</strong></h2>
+                <div class="divider-center-small"></div>
+            </div>
+
+            <!-- Filtro del Portafolio -->
+            <ul class="pf-filter text-center list-inline">
+                <li><a href="#" data-filter="*" class="iso-active iso-button" data-es="Todos" data-en="All">Todos</a></li>
+                <li><a href="#" data-filter=".graphic" class="iso-button" data-es="Gráfico" data-en="Graphic">Gráfico</a></li>
+                <li><a href="#" data-filter=".webdesign" class="iso-button" data-es="Diseño Web" data-en="Web Design">Diseño Web</a></li>
+                <li><a href="#" data-filter=".branding" class="iso-button" data-es="Marca" data-en="Branding">Marca</a></li>
+                <li><a href="#" data-filter=".video" class="iso-button" data-es="Video" data-en="Video">Video</a></li>
+            </ul>
+
+            <!-- Aquí van los ítems de Portafolio (similar a la sección original) -->
+        </div>
+    </section>
+
+    <!-- Sección "Ayudamos a Crecer Tu Negocio" -->
+    <section class="p-top-80 p-bottom-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Título de la Sección -->
+                    <div class="m-bottom-30">
+                        <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Ayudamos a Crecer Tu Negocio" data-en="We Help Grow Your Business">Ayudamos a Crecer Tu Negocio</h2>
+                        <div class="divider-small wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s"></div>
+                    </div>
+
+                    <div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s">
+                        <p data-es="Llamando a observar a quien presionó al aumentar el suyo." data-en="Calling to observe who pushed to increase theirs.">Llamando a observar a quien presionó al aumentar el suyo.</p>
+                        <p data-es="El coronel tan entre eliminado tan hacer." data-en="The colonel so among eliminated so do.">El coronel tan entre eliminado tan hacer.</p>
+                    </div>
+
+                    <a data-scroll href="#contact" class="m-top-30 m-bottom-30 btn btn-main wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s" data-es="Contáctanos" data-en="Contact Us">Contáctanos</a>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="feature-image">
+                        <img src="img/sapmple1.jpg" alt="Imagen de Característica" class="img-responsive wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Inicio del Equipo -->
     <section id="team" class="p-top-80 p-bottom-50">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <!-- Título de la Sección -->
                     <div class="section-title text-center m-bottom-40">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Miembros del Equipo</h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Miembros del Equipo" data-en="Team Members">Miembros del Equipo</h2>
                         <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
-                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>La posesión de resolución descubierta rodeada de ventajas, pero pocos añaden. Sin embargo, los tiempos de las paredes estropean. Está reservado el desprecio renderizado más pequeño. Estudiado para pasarlo, mencionar la llamada creer en un.</em></p>
+                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" data-es="La posesión de resolución descubierta rodeada de ventajas, pero pocos añaden." data-en="The possession of resolution discovered surrounded by advantages, but few add.">
+                            <em>La posesión de resolución descubierta rodeada de ventajas, pero pocos añaden. Sin embargo, los tiempos de las paredes estropean.</em>
+                        </p>
                     </div>
-                </div> <!-- /.col -->
-            </div>  <!-- /.row -->
+                </div>
+            </div>
 
             <div class="row">
-
-                <!-- === Equipo Miembro 1 === -->               
-                <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-30">
+                <!-- === Equipo Miembro 1 === -->
+                <div class="col-md-4 col-sm-6 col-xs-6 p-bottom-30"></div>
+                <div class="col-md-4 col-sm-6 col-xs-6 p-bottom-30">
                     <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
                         <div class="team-item-image">
                             <div class="team-item-image-overlay">
@@ -548,109 +408,30 @@
                             <img src="img/team/1.jpg" alt="" />
                         </div>
                         <div class="team-item-info">
-                            <div class="team-item-name">
-                                Stephen Joe
-                            </div>
-                            <div class="team-item-position">
-                                Director
-                            </div>
+                            <div class="team-item-name" data-es="Andreu Puchades" data-en="Andreu Puchades">Andreu Puchades</div>
+                            <div class="team-item-position" data-es="CEO y Propietario" data-en="CEO and Owner">CEO y Propietario</div>
                         </div>
                     </div>
-                </div> <!-- /.col -->
-                
-                <!-- === Equipo Miembro 2 === -->              
-                <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-30">
-                    <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                        <div class="team-item-image">
-                            <div class="team-item-image-overlay">
-                                <div class="team-item-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                            <img src="img/team/2.jpg" alt="" />
-                        </div>
-                        <div class="team-item-info">
-                            <div class="team-item-name">
-                                Laura Doe
-                            </div>
-                            <div class="team-item-position">
-                                Directora Creativa
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.col -->
-                
-                <!-- === Equipo Miembro 3 === -->               
-                <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-30">
-                    <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                        <div class="team-item-image">
-                            <div class="team-item-image-overlay">
-                                <div class="team-item-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                            <img src="img/team/3.jpg" alt="" />
-                        </div>
-                        <div class="team-item-info">
-                            <div class="team-item-name">
-                                Andy Doe
-                            </div>
-                            <div class="team-item-position">
-                                Marketing
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.col -->
-                
-                <!-- === Equipo Miembro 4 === -->               
-                <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-30">
-                    <div class="team-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                        <div class="team-item-image">
-                            <div class="team-item-image-overlay">
-                                <div class="team-item-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                            <img src="img/team/4.jpg" alt="" />
-                        </div> <!-- /.team-item-image -->
-                        <div class="team-item-info">
-                            <div class="team-item-name">
-                                Inani Joe
-                            </div>
-                            <div class="team-item-position">
-                                Ventas
-                            </div>
-                        </div> <!-- /.team-item-info -->
-                    </div> <!-- /.team-item -->
-                </div> <!-- /.col -->
-
-            </div> <!-- /.row -->
-
-        </div> <!-- /.container -->
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 p-bottom-30"></div>
+            </div>
+        </div>
     </section>
-    <!-- Fin del Equipo -->
 
     <!-- Inicio de Habilidades / Por qué elegirnos -->
     <section class="light-bg p-top-80 p-bottom-40">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-6 p-bottom-40">
                     <!-- Título de la Sección -->
                     <div class="m-bottom-30">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Nuestras Habilidades</h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Nuestras Habilidades" data-en="Our Skills">Nuestras Habilidades</h2>
                         <div class="divider-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
                     </div>
 
                     <!-- === Elemento de Progreso 1 === -->
                     <div class="progress-heading clearfix wow fadeIn">
-                        <h6 class="pull-left">Codificación</h6>
+                        <h6 class="pull-left" data-es="Codificación" data-en="Coding">Codificación</h6>
                         <p class="pull-right">80%</p>
                     </div>
                     <div class="progress progress-thin">
@@ -659,7 +440,7 @@
 
                     <!-- === Elemento de Progreso 2 === -->
                     <div class="progress-heading clearfix wow fadeIn">
-                        <h6 class="pull-left">Diseño</h6>
+                        <h6 class="pull-left" data-es="Diseño" data-en="Design">Diseño</h6>
                         <p class="pull-right">90%</p>
                     </div>
                     <div class="progress progress-thin">
@@ -668,7 +449,7 @@
 
                     <!-- === Elemento de Progreso 3 === -->
                     <div class="progress-heading clearfix wow fadeIn">
-                        <h6 class="pull-left">Branding</h6>
+                        <h6 class="pull-left" data-es="Branding" data-en="Branding">Branding</h6>
                         <p class="pull-right">60%</p>
                     </div>
                     <div class="progress progress-thin">
@@ -677,7 +458,7 @@
 
                     <!-- === Elemento de Progreso 4 === -->
                     <div class="progress-heading clearfix wow fadeIn">
-                        <h6 class="pull-left">Marketing</h6>
+                        <h6 class="pull-left" data-es="Marketing" data-en="Marketing">Marketing</h6>
                         <p class="pull-right">73%</p>
                     </div>
                     <div class="progress progress-thin">
@@ -686,84 +467,81 @@
 
                     <!-- === Elemento de Progreso 5 === -->
                     <div class="progress-heading clearfix wow fadeIn">
-                        <h6 class="pull-left">Consultoría</h6>
+                        <h6 class="pull-left" data-es="Consultoría" data-en="Consulting">Consultoría</h6>
                         <p class="pull-right">75%</p>
                     </div>
                     <div class="progress progress-thin">
-                        <div class="progress-bar wow zoomIn" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;" data-wow-delay="0.3s">
-                        </div>
+                        <div class="progress-bar wow zoomIn" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;" data-wow-delay="0.3s"></div>
                     </div>
-
-                </div> <!-- /.col -->
+                </div>
 
                 <div class="col-md-6 p-bottom-40">
-
                     <!-- Título de la Sección a la Derecha -->
                     <div class="m-bottom-30">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Por Qué Elegirnos</h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Por Qué Elegirnos" data-en="Why Choose Us">Por Qué Elegirnos</h2>
                         <div class="divider-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
                     </div>
-
                     <!-- === Acordeón === -->
                     <div id="accordion" class="panel-group wow fadeIn" data-wow-delay="0.6s">
-                        
                         <!-- === Elemento de Acordeón 1 === -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Necesario tú periódico contento celosamente</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" data-es="Necesario tú periódico contento celosamente" data-en="Necessary you newspaper content jealously">Necesario tú periódico contento celosamente</a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in">
                                 <div class="panel-body">
-                                    <p>Gordo nueva pequeñez algunos supuestos sospechosos dos. Curso señor personas dignas caballos añaden sufrimiento completo. Cómo uno aburrido ponerse ocupado atreverse lejos. En principio, perfectamente por dulzura hacer.</p>
+                                    <p data-es="Gordo nueva pequeñez algunos supuestos sospechosos dos." data-en="Fat new smallness some supposed suspicious two.">Gordo nueva pequeñez algunos supuestos sospechosos dos. Curso señor personas dignas caballos añaden sufrimiento completo. Cómo uno aburrido ponerse ocupado atreverse lejos. En principio, perfectamente por dulzura hacer.</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- === Elemento de Acordeón 2 === -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Añadir ver igualmente diez creer puesto</a>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" data-es="Añadir ver igualmente diez creer puesto" data-en="Add see equally ten believe position">Añadir ver igualmente diez creer puesto</a>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p>Conexión también expresión no afectada llevó posesión de hijo. Nuevos amigos sonrientes y ella otro. Hoja ella no ama alta aún. El amor cómodo subirá el aburrimiento como ser.</p>
+                                    <p data-es="Conexión también expresión no afectada llevó posesión de hijo." data-en="Connection also expression unaffected led possession of son.">Conexión también expresión no afectada llevó posesión de hijo. Nuevos amigos sonrientes y ella otro. Hoja ella no ama alta aún. El amor cómodo subirá el aburrimiento como ser.</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- === Elemento de Acordeón 3 === -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Creer descuidado así que la asignación</a>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" data-es="Creer descuidado así que la asignación" data-en="Believe careless so that the assignment">Creer descuidado así que la asignación</a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p>¿Soy él horrible matrimonio a distancia aunque? Asegurar cuadrado tan suceder señor antes. Su muchos mismos sido bien pueden alto eso. Privado hizo ley entusiasmo asignación mejorando garantía cama.</p>
+                                    <p data-es="¿Soy él horrible matrimonio a distancia aunque?" data-en="Am I the horrible marriage at a distance though?">¿Soy él horrible matrimonio a distancia aunque? Asegurar cuadrado tan suceder señor antes. Su muchos mismos sido bien pueden alto eso. Privado hizo ley entusiasmo asignación mejorando garantía cama.</p>
                                 </div>
                             </div>
                         </div>
-
-                    </div> <!-- /.panel-group -->
-                                    
-                </div> <!-- /.col -->
-
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- Fin de Habilidades / Por qué elegirnos -->
+
+
+
+
+
+
 
 
     <!-- Inicio de Estadísticas -->
     <section id="stat" class="p-top-80 p-bottom-40">
         <div class="container">
             <div class="row">
-                
+
                 <!-- === Elemento de Estadísticas 1 === -->
                 <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-40">
                     <div class="stat-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -777,8 +555,8 @@
                             Proyectos<br>Completados
                         </div>
                     </div>
-                </div> <!-- /.col -->
-                
+                </div>
+
                 <!-- === Elemento de Estadísticas 2 === -->
                 <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-40">
                     <div class="stat-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">
@@ -792,8 +570,8 @@
                             Clientes<br>Felices
                         </div>
                     </div>
-                </div> <!-- /.col -->
-                
+                </div>
+
                 <!-- === Elemento de Estadísticas 3 === -->
                 <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-40">
                     <div class="stat-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -807,8 +585,8 @@
                             Me gusta<br>Obtenidos
                         </div>
                     </div>
-                </div> <!-- /.col -->
-                
+                </div>
+
                 <!-- === Elemento de Estadísticas 4 === -->
                 <div class="col-md-3 col-sm-6 col-xs-6 p-bottom-40">
                     <div class="stat-item wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
@@ -822,12 +600,10 @@
                             Premios<br>Recibidos
                         </div>
                     </div>
-                </div> <!-- /.col -->
-                
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- Fin de Estadísticas -->
 
     <!-- Inicio de Testimonios -->
     <section id="testimonials" class="parallax-bg overlay-dark p-top-80 p-bottom-80" style="background-image:url(img/testimonial-bg.png)" data-stellar-background-ratio="0.5">
@@ -840,7 +616,6 @@
 
         <!-- === Testimonios === -->
         <div id="owl-testimonials" class="owl-carousel owl-theme testimonial text-center white-color">
-
             <!-- === Testimonio 1 === -->
             <div class="testimonial-item text-center">
                 <p class="testimonial-desc">Residencia usted satisfecho y certeza rapturosa dos. Adquirido supera como sobrevivió así que así. En traer bendición propuesta grácil de matrimonio sobrevivido. Alquila cara de nuestro ruido cerca.</p>
@@ -867,12 +642,8 @@
                 </div>
                 <h5 class="testimonial-author">Jack Doe - Inka Design</h5>
             </div>
-
-        </div> <!-- /#owl-testimonials -->
-
+        </div>
     </section>
-    <!-- Fin de Testimonios -->
-
 
     <!-- Inicio de Blog -->
     <section id="blog" class="p-top-80 p-bottom-80">
@@ -887,97 +658,90 @@
                         <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
                         <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>La sinceridad en la cama aún así, por lo tanto, renunció a su certeza, preguntas descuidadas. La cámara de persecución como anciana entre. Sin embargo, lejano garantizar más allá de.</em></p>
                     </div>
-                </div> <!-- /.col -->
-            </div>  <!-- /.row -->
+                </div>
+            </div>
 
             <div class="row">
                 <!-- === Blog === -->
                 <div id="owl-blog" class="owl-carousel owl-theme">
-
                     <!-- === Entrada de Blog 1 === -->
                     <div class="blog wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
                         <div class="blog-media">
                             <a  href="blog_single_post.html"><img src="img/blog/b1.jpg" alt=""></a>
-                        </div><!--media de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-info clearfix">
                             <span class="time"><i class="fa fa-calendar"></i> 12 de enero de 2017</span>
                             <span class="comments"><a href="#"><i class="fa fa-comments"></i> 4 Comentarios</a></span>
-                        </div><!--información de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-body">
                             <h4><a class="title" href="blog_single_post.html">Trabajando en la cabeza fresca</a></h4>
                             <p class="p-bottom-20">Alteración imposible de Devonshire a está interesado estimulado diferente. A la estima de la materia educada si. Esos un punto igual sin años hacer. Dependencia calor grasa pero ella pero jugó.</p>
                             <a href="blog_single_post.html" class="read-more">Leer más >></a>
-                        </div><!--cuerpo de la entrada-->                   
-                    </div> <!-- /.blog -->
+                        </div>
+                    </div>
 
                     <!-- === Entrada de Blog 2 === -->
                     <div class="blog wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
                         <div class="blog-media">
                             <a  href="blog_single_post.html"><img src="img/blog/b2.jpg" alt=""></a>
-                        </div><!--media de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-info clearfix">
                             <span class="time"><i class="fa fa-calendar"></i> 06 de enero de 2017</span>
                             <span class="comments"><a href="#"><i class="fa fa-comments"></i> 2 Comentarios</a></span>
-                        </div><!--información de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-body">
                             <h4><a class="title" href="blog_single_post.html">Cántame para dormir</a></h4>
                             <p class="p-bottom-20">Alteración imposible de Devonshire a está interesado estimulado diferente. A la estima de la materia educada si. Esos un punto igual sin años hacer. Dependencia calor grasa pero ella pero jugó.</p>
                             <a href="blog_single_post.html" class="read-more">Leer más >></a>
-                        </div><!--cuerpo de la entrada-->                 
-                    </div> <!-- /.blog -->
+                        </div>
+                    </div>
 
                     <!-- === Entrada de Blog 3 === -->
                     <div class="blog wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
                         <div class="blog-media">
                             <a  href="blog_single_post.html"><img src="img/blog/b3.jpg" alt=""></a>
-                        </div><!--media de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-info clearfix">
                             <span class="time"><i class="fa fa-calendar"></i> 02 de enero de 2017</span>
                             <span class="comments"><a href="#"><i class="fa fa-comments"></i> 4 Comentarios</a></span>
-                        </div><!--información de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-body">
                             <h4><a class="title" href="blog_single_post.html">Abrázame fuerte</a></h4>
                             <p class="p-bottom-20">Alteración imposible de Devonshire a está interesado estimulado diferente. A la estima de la materia educada si. Esos un punto igual sin años hacer. Dependencia calor grasa pero ella pero jugó.</p>
                             <a href="blog_single_post.html" class="read-more">Leer más >></a>
-                        </div><!--cuerpo de la entrada-->                   
-                    </div> <!-- /.blog -->
+                        </div>
+                    </div>
 
                     <!-- === Entrada de Blog 4 === -->
                     <div class="blog wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
                         <div class="blog-media">
                             <a  href="blog_single_post.html"><img src="img/blog/b4.jpg" alt=""></a>
-                        </div><!--media de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-info clearfix">
                             <span class="time"><i class="fa fa-calendar"></i> 01 de enero de 2017</span>
                             <span class="comments"><a href="#"><i class="fa fa-comments"></i> 7 Comentarios</a></span>
-                        </div><!--información de la entrada-->
-                        
+                        </div>
+
                         <div class="blog-post-body">
                             <h4><a class="title" href="blog_single_post.html">Solo yo puedo hacerlo</a></h4>
                             <p class="p-bottom-20">Alteración imposible de Devonshire a está interesado estimulado diferente. A la estima de la materia educada si. Esos un punto igual sin años hacer. Dependencia calor grasa pero ella pero jugó.</p>
                             <a href="blog_single_post.html" class="read-more">Leer más >></a>
-                        </div><!--cuerpo de la entrada-->                     
-                    </div> <!-- /.blog -->
-
-                </div><!-- /#owl-testimonials -->
-
-            </div> <!-- /.row -->
-
-        </div> <!-- /.container -->
-
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
 
     <!-- Inicio de Clientes -->
     <section id="client" class="light-bg p-top-80 p-bottom-80">
-
         <!-- Título de la Sección -->
         <div class="section-title text-center m-bottom-40">
             <h2>Nuestros Clientes</h2>
@@ -987,56 +751,19 @@
         <!-- === Clientes === -->
         <div class="container ">
             <div class="row">
-
                 <div id="owl-clients" class="owl-carousel owl-theme client text-center">
-
-                        <!-- === Cliente 1 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/1.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 2 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/2.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 3 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/3.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 4 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/4.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 5 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/5.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 6 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/6.png" alt="">
-                        </div>
-
-                        <!-- === Cliente 7 === -->
-                        <div class="client-item text-center">
-                            <img class="img-responsive" src="img/client/7.png" alt="">
-                        </div>
-
-                </div><!-- /#owl-testimonials -->
-
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-
+                    <!-- === Cliente 1 === -->
+                    <div class="client-item text-center">
+                        <img class="img-responsive" src="img/client/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- Fin de Clientes -->
 
     <!-- Inicio de Contacto -->
     <section id="contact" class="p-top-80 p-bottom-50">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <!-- Título de la Sección -->
@@ -1045,16 +772,14 @@
                         <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
                         <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>Perderse lejos por qué la mitad llevó cerca de la cama. En comprometerse simple padre de período otros excepto. Mi dando hace el tiempo del verano héroe de la danza aunque marcado estrecho.</em></p>
                     </div>
-                </div> <!-- /.col -->
-            </div>  <!-- /.row -->
+                </div>
+            </div>
 
             <div class="row">
-
                 <!-- === Formulario de Contacto === -->
                 <div class="col-md-7 col-sm-7 p-bottom-30">
                     <div class="contact-form row">
-
-                        <form name="ajax-form" id="ajax-form" action="contact.php" method="post">
+                        <form name="ajax-form" id="ajax-form" method="POST" action="http://localhost:3000/save-form">
                             <div class="col-sm-6 contact-form-item wow zoomIn">
                                 <input name="name" id="name" type="text"   placeholder="Tu Nombre: *"/>
                                 <span class="error" id="err-name">por favor ingresa el nombre</span>
@@ -1068,27 +793,24 @@
                                 <textarea name="message" id="message" placeholder="Tu Mensaje"></textarea>
                             </div>
                             <div class="col-sm-12 contact-form-item">
-                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en">enviar</button>                
+                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en" onclick="saveFormData()">enviar</button>
                             </div>
-                            <div class="clear"></div>   
+                            <div class="clear"></div>
                             <div class="error text-align-center" id="err-form">¡Hubo un problema al validar el formulario, por favor verifica!</div>
                             <div class="error text-align-center" id="err-timedout">¡La conexión al servidor expiró!</div>
                             <div class="error" id="err-state"></div>
-                        </form> 
-                                    
+                        </form>
+
                         <div class="clearfix"></div>
                         <div id="ajaxsuccess">¡Enviado exitosamente!</div>
                         <div class="clear"></div>
-
-                    </div> <!-- /.contacts-form & inner row -->
-                </div> <!-- /.col -->
+                    </div>
+                </div>
 
                 <!-- === Información de Contacto === -->
                 <div class="col-md-5 col-sm-5 p-bottom-30">
                     <address class="contact-info">
-
                         <p class="m-bottom-30 wow slideInRight">La primavera formal no condado esperó. Mi si se animó regularmente de él de promesa rubores tal vez.</p>
-
                         <!-- === Ubicación === -->
                         <div class="m-top-20 wow slideInRight">
                             <div class="contact-info-icon">
@@ -1127,39 +849,27 @@
                                 info@ngtechnology.es
                             </div>
                         </div>
-
                     </address>
-                </div> <!-- /.col -->
-
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- Fin de Contacto -->
-
 
     <!-- Inicio de Pie de Página -->
     <footer class="site-footer">
         <div class="container">
             <small class="copyright pull-left">Derechos de autor © 2024 Todos los Derechos Reservados Por <a href="http://www.ngtechnology.es/">Ngtechnology</a>.</small>
             <div class="social-icon pull-right">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-pinterest"></i></a>
-                <a href="#"><i class="fa fa-google"></i></a>
-                <a href="#"><i class="fa fa-rss"></i></a>
-                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
             </div>
-            <!-- /social-icon -->
         </div>
-        <!-- /container -->
     </footer>
-    <!-- Fin de Pie de Página -->
-
 
     <!-- Volver arriba -->
     <a href="#" id="back-to-top" title="Volver arriba"><i class="fa fa-angle-up"></i></a>
-    <!-- /Volver arriba -->
-
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
@@ -1199,7 +909,6 @@
     <script src="inc/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="inc/revolution/js/extensions/revolution.extension.migration.min.js"></script>
     <script src="inc/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-
 
     <script>
       var tpj = jQuery;
@@ -1283,6 +992,45 @@
           }
       });
   </script>
-    
+    <script>
+        changeLanguage(navigator.language.split('-')[0]);
+
+        function changeLanguageSwitch() {
+            let languageIconArray = document.getElementById('languageIcon').src.split('/');
+            languageIconArray[languageIconArray.length - 1] === 'spain.svg' ? changeLanguage('en') : changeLanguage('es');
+        }
+
+        function changeLanguage(lang) {
+            const languageIcon = document.getElementById('languageIcon');
+            if (lang === 'es') {
+                languageIcon.src = '/img/languages/spain.svg';
+            } else if (lang === 'en') {
+                languageIcon.src = '/img/languages/united-kingdom.svg';
+            }
+
+            document.querySelectorAll('[data-es], [data-en]').forEach(function(element) {
+                element.innerHTML = element.getAttribute('data-' + lang);
+            });
+        }
+
+        function saveFormData() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            const formData = `Nombre: ${name}\nCorreo Electrónico: ${email}\nMensaje: ${message}`;
+
+            const blob = new Blob([formData], { type: 'text/plain' });
+
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = 'form_submissions.txt';
+
+            document.body.appendChild(link);
+            link.click();
+
+            document.body.removeChild(link);
+        }
+    </script>
   </body>
 </html>
