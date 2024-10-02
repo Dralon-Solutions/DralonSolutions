@@ -29,3 +29,11 @@ li {
     display: inline-block;
     margin: 0 auto;
 }
+
+.section-subtitle {
+    color: #333333;
+}
+
+.service p {
+    color: #FFFFFF;
+}
