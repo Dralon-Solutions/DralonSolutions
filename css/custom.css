@@ -9,17 +9,16 @@ URL:            http://www.tabthemes.com/
     Write Down your Own Custom CSS here. It is better choice than editing style.css file.
     Put it below of style.css file in the header.
 ---------------------------------------------------*/
-
 .navbar-nav {
     display: flex;
-    justify-content: center; /* Centra horizontalmente todos los elementos */
-    align-items: center;     /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 li {
     display: flex;
-    justify-content: center; /* Centra horizontalmente el botón */
-    align-items: center;     /* Centra verticalmente el botón */
+    justify-content: center;
+    align-items: center;
 }
 
 li {
