@@ -1013,6 +1013,10 @@
 
             document.body.removeChild(link);
         }
+
+        document.querySelectorAll('img').forEach((img, index) => {
+            img.setAttribute('alt', 'Imagen ' + (index + 1));
+        });
     </script>
   </body>
 </html>
