@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Dralons</title>
-
     <meta name="description" content="N. Agencia: Página de aterrizaje receptiva para agencias">
-    <meta name="keywords" content="">
-    <meta name="author" content="tabthemes">
     <link rel="canonical" href="https://www.dralons.com/" />
     <link rel="shortcut icon" href="img/favicon.webp">
+
+    <!-- Cargar Bootstrap de manera asíncrona -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <noscript><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></noscript>
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet" />
-    <link href="css/YTPlayer.css" rel="stylesheet" />
-    <link href="inc/owlcarousel/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="inc/owlcarousel/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="inc/revolution/css/settings.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Otros CSS con preloading donde sea necesario -->
+    <link rel="preload" href="css/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/font-awesome/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/YTPlayer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="inc/owlcarousel/css/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="inc/owlcarousel/css/owl.theme.default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="inc/revolution/css/settings.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="preload" as="image" href="img/slider/s1.webp" />
-  </head>
+    <link rel="preload" as="image" href="img/slider/s1.webp" />
+</head>
+
 
   <body class="homepage_slider" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
     <!-- Comienzo de la navegación -->
@@ -850,7 +853,7 @@
     <a href="/" id="back-to-top" title="Volver arriba"><i class="fa fa-angle-up"></i></a>
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js" defer></script>
 
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
