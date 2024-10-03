@@ -37,3 +37,25 @@ li {
 .service p {
     color: #FFFFFF;
 }
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.navigation {
+    background-color: #444444;
+}
+
+.navigation a {
+    color: #ffffff;
+}
+
+.site-footer {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.copyright {
+    color: #cccccc;
+}
