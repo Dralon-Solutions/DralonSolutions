@@ -59,3 +59,16 @@ body {
 .copyright {
     color: #cccccc;
 }
+
+@media (max-width: 768px) {
+    .item-1 {
+        background-image: url('img/slider/s1-small.webp');
+    }
+    .item-2 {
+        background-image: url('img/slider/s2-small.webp');
+    }
+}
+
+.item-1 {
+    height: 50vh;
+}
