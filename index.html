@@ -751,6 +751,18 @@
     <script defer>
         // Carga el s1.webp y s2.webp solo en movil
         document.addEventListener("DOMContentLoaded", function() {
+            const lazyBackgrounds = document.querySelectorAll('.lazy-bg');
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                let bgImage = lazyBackground.dataset.bg;
+
+                if (window.innerWidth < 768) {
+                    bgImage = bgImage.replace('.webp', '-small.webp');
+                }
+
+                lazyBackground.style.backgroundImage = 'url(' + bgImage + ')';
+            });
+
             if (window.innerWidth < 768) {
                 const lazyBackgrounds = document.querySelectorAll('.lazy-bg');
 

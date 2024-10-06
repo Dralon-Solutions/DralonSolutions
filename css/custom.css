@@ -60,11 +60,17 @@ body {
     color: #cccccc;
 }
 
+.item-1, .item-2 {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
 @media (max-width: 768px) {
     .item-1 {
-        background-image: url('img/slider/s1-small.webp');
+        background-image: url('img/slider/s1-small.webp') !important;
     }
     .item-2 {
-        background-image: url('img/slider/s2-small.webp');
+        background-image: url('img/slider/s2-small.webp') !important;
     }
 }
