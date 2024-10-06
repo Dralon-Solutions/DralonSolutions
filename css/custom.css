@@ -1,14 +1,3 @@
-/*------------------------------------------------------------------
-Template Name:  N. agency - Responisve Landing Page for Agency
-Version:        1.0
-Last update:    12/17/2017
-Author:         tabthemes
-URL:            http://www.tabthemes.com/
--------------------------------------------------------------------*/
-/*--------------------------------------------------
-    Write Down your Own Custom CSS here. It is better choice than editing style.css file.
-    Put it below of style.css file in the header.
----------------------------------------------------*/
 .navbar-nav {
     display: flex;
     justify-content: center;
@@ -58,19 +47,4 @@ body {
 
 .copyright {
     color: #cccccc;
-}
-
-.item-1, .item-2 {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-}
-
-@media (max-width: 768px) {
-    .item-1 {
-        background-image: url('img/slider/s1-small.webp') !important;
-    }
-    .item-2 {
-        background-image: url('img/slider/s2-small.webp') !important;
-    }
 }
