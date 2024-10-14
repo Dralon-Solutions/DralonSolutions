@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap-image.xsd">
+
+    <url>
+        <loc>https://www.dralons.com/</loc>
+        <image:image>
+            <image:loc>https://www.dralons.com/img/favicon.webp</image:loc>
+            <image:caption>DralonSolutions</image:caption>
+        </image:image>
+        <lastmod>2024-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>
