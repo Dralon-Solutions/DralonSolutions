@@ -1,0 +1,21 @@
+# robots.txt para Dralon Solutions
+
+User-agent: *
+# Permitir todo el contenido
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /node_modules/
+
+# Permitir el rastreo de contenido importante
+Allow: /
+
+# Bloquear carpetas con contenido duplicado o innecesario
+Disallow: /?*sessionid=
+Disallow: /*.pdf$
+
+# Sitemap
+Sitemap: https://www.dralons.com/sitemap.xml
