@@ -630,7 +630,7 @@
                 <!-- === Formulario de Contacto === -->
                 <div class="col-md-7 col-sm-7 p-bottom-30">
                     <div class="contact-form row">
-                        <form name="ajax-form" id="ajax-form" method="POST" action="">
+                        <form name="ajax-form" id="ajax-form" method="POST" action="https://getform.io/f/bolgvdxa">
                             <div class="col-sm-6 contact-form-item wow zoomIn">
                                 <input name="name" id="name" type="text"   placeholder="Tu Nombre: *"/>
                                 <span class="error" id="err-name">por favor ingresa el nombre</span>
@@ -641,10 +641,10 @@
                                 <span class="error" id="err-emailvld">el correo electrónico no tiene un formato válido</span>
                             </div>
                             <div class="col-sm-12 contact-form-item wow zoomIn">
-                                <textarea name="message" id="message" placeholder="Tu Mensaje"></textarea>
+                                <textarea  name="message" id="message" placeholder="Tu Mensaje"></textarea>
                             </div>
                             <div class="col-sm-12 contact-form-item">
-                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en" onclick="saveFormData()">enviar</button>
+                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en">enviar</button>
                             </div>
                             <div class="clear"></div>
                             <div class="error text-align-center" id="err-form">¡Hubo un problema al validar el formulario, por favor verifica!</div>
@@ -813,25 +813,15 @@
                 element.innerHTML = element.getAttribute('data-' + lang);
             });
         }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XE6RTMDP3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        function saveFormData() {
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            const formData = `Nombre: ${name}\nCorreo Electrónico: ${email}\nMensaje: ${message}`;
-
-            const blob = new Blob([formData], { type: 'text/plain' });
-
-            const link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'form_submissions.txt';
-
-            document.body.appendChild(link);
-            link.click();
-
-            document.body.removeChild(link);
-        }
+        gtag('config', 'G-8XE6RTMDP3');
     </script>
   </body>
 </html>
