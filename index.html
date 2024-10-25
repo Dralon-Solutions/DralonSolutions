@@ -12,6 +12,7 @@
 
     <!-- Cargar Bootstrap de manera asíncrona -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" onload="this.onload=null;this.removeAttribute('media');">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
@@ -23,6 +24,97 @@
     <link rel="preload" href="inc/owlcarousel/css/owl.theme.default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" href="img/slider/s1.webp" />
+
+    <style>
+        .pricing-section {
+            padding: 80px 0;
+        }
+        .section-title {
+            color: #ff3333;
+            margin-bottom: 50px;
+        }
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #ff3333;
+            margin: 20px auto 0;
+        }
+        .panel {
+            border: none;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .panel:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(255, 51, 51, 0.2);
+        }
+        .panel-heading {
+            color: white;
+            border: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 20px 15px;
+        }
+        .panel-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: white;
+        }
+        .panel-body {
+            padding: 30px 15px;
+        }
+        .price {
+            font-size: 48px;
+            color: #ff3333;
+            margin: 10px 0 20px;
+        }
+        .price .currency {
+            font-size: 24px;
+            vertical-align: super;
+        }
+        .price .period {
+            font-size: 16px;
+            color: #777;
+        }
+        .features {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .features li:last-child {
+            border-bottom: none;
+        }
+        .features i {
+            color: #ff3333;
+            margin-right: 10px;
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #ff3333 0%, #ff6666 100%);
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+        .btn-primary:hover, .btn-primary:focus {
+            background: linear-gradient(45deg, #ff6666 0%, #ff3333 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 51, 51, 0.4);
+        }
+        select.form-control {
+            background-color: #f4f4f4 !important;
+            color: #aeaeae;
+            border-color: #ffffff;
+        }
+    </style>
 </head>
 
   <body class="homepage_slider" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
@@ -228,6 +320,110 @@
 
     <!-- Línea divisoria -->
     <div class="divider" style="border-top: 1px solid #cfcfcf; margin: 20px 0; width: 100%; height: 1px"></div>
+
+
+
+
+    <!-- Sección de Precios -->
+    <section class="pricing-section light-bg p-top-80 p-bottom-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <!-- Título de la Sección -->
+                    <div class="section-title text-center m-bottom-40">
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Nuestros Planes" data-en="Our Plans">Nuestros Planes</h2>
+                        <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
+                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Elige el plan que mejor se ajuste a las necesidades de tu negocio." data-en="Choose the plan that best fits your business needs.">
+                            <em>La posesión de resolución descubierta rodeada de ventajas, pero pocos añaden. Sin embargo, los tiempos de las paredes estropean.</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-es="Básico" data-en="Basic">Básico</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="price">
+                                <span class="currency">€</span>24,99
+                                <span class="period">/mes</span>
+                            </div>
+                            <ul class="features">
+                                <li><i class="fa fa-check"></i> <span data-es="1 Hosting" data-en="1 Hosting">1 Hosting</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="Soporte 24/7" data-en="24/7 Support">Soporte 24/7</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="1 Dominio Incluido" data-en="1 Domain Included">1 Dominio Incluido</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="Certificado HTTPS" data-en="HTTPS Certificate">Certificado HTTPS</span></li>
+                            </ul>
+                            <a data-scroll href="#contact" class="btn btn-lg btn-primary" data-es="Elegir Plan" data-en="Choose Plan">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-es="Básico" data-en="Basic">Básico</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="price">
+                                <span class="currency">€</span>149,99
+                            </div>
+                            <ul class="features">
+                                <li><i class="fa fa-check"></i> <span data-es="1 Página Web" data-en="1 Website">1 Página Web</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="SEO simple" data-en="Simple SEO">SEO simple</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="1 Dominio Incluido" data-en="1 Domain Included">1 Dominio Incluido</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="WordPress" data-en="WordPress">WordPress</span></li>
+                            </ul>
+                            <a data-scroll href="#contact" class="btn btn-lg btn-primary" data-es="Elegir Plan" data-en="Choose Plan">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-es="Avanzado" data-en="Advanced">Avanzado</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="price">
+                                <span class="currency">€</span>249,99
+                            </div>
+                            <ul class="features">
+                                <li><i class="fa fa-check"></i> <span data-es="1 Tienda Web" data-en="1 Shop">1 Tienda Web</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="SEO simple" data-en="Simple SEO">SEO simple</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="1 Dominio Incluido" data-en="1 Domain Included">1 Dominio Incluido</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="WordPress" data-en="WordPress">WordPress</span></li>
+                            </ul>
+                            <a data-scroll href="#contact" class="btn btn-lg btn-primary" data-es="Elegir Plan" data-en="Choose Plan">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-es="Básico" data-en="Basic">Básico</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="price">
+                                <span class="currency"></span>Custom
+                            </div>
+                            <ul class="features">
+                                <li><i class="fa fa-check"></i> <span data-es="1 Web" data-en="1 Web">1 Web</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="SEO Personalizado" data-en="Custom SEO">SEO Personalizado</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="1 Dominio Incluido" data-en="1 Domain Included">1 Dominio Incluido</span></li>
+                                <li><i class="fa fa-check"></i> <span data-es="Personalizado" data-en="Custom">Personalizado</span></li>
+                            </ul>
+                            <a data-scroll href="#contact" class="btn btn-lg btn-primary" data-es="Elegir Plan" data-en="Choose Plan">Elegir Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <!-- Inicio del Equipo -->
     <section id="team" class="p-top-80 p-bottom-50">
@@ -618,9 +814,9 @@
                 <div class="col-md-8 col-md-offset-2">
                     <!-- Título de la Sección -->
                     <div class="section-title text-center m-bottom-40">
-                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Contacto</h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" data-es="Contacto" data-en="Contact">Contacto</h2>
                         <div class="divider-center-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
-                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"><em>Perderse lejos por qué la mitad llevó cerca de la cama. En comprometerse simple padre de período otros excepto. Mi dando hace el tiempo del verano héroe de la danza aunque marcado estrecho.</em></p>
+                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" data-es="<em>Perderse lejos por qué la mitad llevó cerca de la cama. En comprometerse simple padre de período otros excepto. Mi dando hace el tiempo del verano héroe de la danza aunque marcado estrecho.</em>" data-en="<em>Get lost far away because half led near the bed. In committing simple father of the period except for others. My giving makes the summer hero of the dance though narrowly marked.</em>"><em>Perderse lejos por qué la mitad llevó cerca de la cama. En comprometerse simple padre de período otros excepto. Mi dando hace el tiempo del verano héroe de la danza aunque marcado estrecho.</em></p>
                     </div>
                 </div>
             </div>
@@ -631,28 +827,36 @@
                     <div class="contact-form row">
                         <form name="ajax-form" id="ajax-form" method="POST" action="https://getform.io/f/bolgvdxa">
                             <div class="col-sm-6 contact-form-item wow zoomIn">
-                                <input name="name" id="name" type="text"   placeholder="Tu Nombre: *"/>
-                                <span class="error" id="err-name">por favor ingresa el nombre</span>
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Tu Nombre: *" data-es="Tu Nombre: *" data-en="Your Name: *"/>
+                                <span class="error" id="err-name" data-es="por favor ingresa el nombre" data-en="please enter your name">por favor ingresa el nombre</span>
                             </div>
                             <div class="col-sm-6 contact-form-item wow zoomIn">
-                                <input name="email" id="email" type="text"  placeholder="Correo Electrónico: *"/>
-                                <span class="error" id="err-email">por favor ingresa el correo electrónico</span>
-                                <span class="error" id="err-emailvld">el correo electrónico no tiene un formato válido</span>
+                                <input name="email" id="email" type="text" class="form-control" placeholder="Correo Electrónico: *" data-es="Correo Electrónico: *" data-en="Email: *"/>
+                                <span class="error" id="err-email" data-es="por favor ingresa el correo electrónico" data-en="please enter your email">por favor ingresa el correo electrónico</span>
+                                <span class="error" id="err-emailvld" data-es="el correo electrónico no tiene un formato válido" data-en="the email format is not valid">el correo electrónico no tiene un formato válido</span>
                             </div>
                             <div class="col-sm-12 contact-form-item wow zoomIn">
-                                <textarea  name="message" id="message" placeholder="Tu Mensaje"></textarea>
+                                <select name="plan" id="select" class="form-control">
+                                    <option value="default" data-es="Selecciona Plan" data-en="Select Plan">Selecciona Plan</option>
+                                    <option value="Plan Basico" data-es="Plan Básico" data-en="Basic Plan">Plan Básico</option>
+                                    <option value="Plan Premium" data-es="Plan Premium" data-en="Premium Plan">Plan Premium</option>
+                                    <option value="Plan Custom" data-es="Plan Custom" data-en="Custom Plan">Plan Custom</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 contact-form-item wow zoomIn">
+                                <textarea name="message" id="message" class="form-control" placeholder="Tu Mensaje"></textarea>
                             </div>
                             <div class="col-sm-12 contact-form-item">
-                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en">enviar</button>
+                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-es="enviar" data-en="send">enviar</button>
                             </div>
                             <div class="clear"></div>
-                            <div class="error text-align-center" id="err-form">¡Hubo un problema al validar el formulario, por favor verifica!</div>
-                            <div class="error text-align-center" id="err-timedout">¡La conexión al servidor expiró!</div>
+                            <div class="error text-align-center" id="err-form" data-es="¡Hubo un problema al validar el formulario, por favor verifica!" data-en="There was a problem validating the form, please check!">¡Hubo un problema al validar el formulario, por favor verifica!</div>
+                            <div class="error text-align-center" id="err-timedout" data-es="¡La conexión al servidor expiró!" data-en="The connection to the server timed out!">¡La conexión al servidor expiró!</div>
                             <div class="error" id="err-state"></div>
                         </form>
 
                         <div class="clearfix"></div>
-                        <div id="ajaxsuccess">¡Enviado exitosamente!</div>
+                        <div id="ajaxsuccess" data-es="¡Enviado exitosamente!" data-en="Successfully sent!">¡Enviado exitosamente!</div>
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -660,16 +864,17 @@
                 <!-- === Información de Contacto === -->
                 <div class="col-md-5 col-sm-5 p-bottom-30">
                     <address class="contact-info">
-                        <p class="m-bottom-30 wow slideInRight">La primavera formal no condado esperó. Mi si se animó regularmente de él de promesa rubores tal vez.</p>
+                        <p class="m-bottom-30 wow slideInRight" data-es="La primavera formal no condado esperó. Mi si se animó regularmente de él de promesa rubores tal vez." data-en="The formal spring was not waited for by the county. Perhaps he regularly cheered himself from promised blushes.">La primavera formal no condado esperó. Mi si se animó regularmente de él de promesa rubores tal vez.</p>
+
                         <!-- === Ubicación === -->
                         <div class="m-top-20 wow slideInRight">
                             <div class="contact-info-icon">
                                 <i class="fa fa-location-arrow"></i>
                             </div>
-                            <div class="contact-info-title">
+                            <div class="contact-info-title" data-es="Dirección:" data-en="Address:">
                                 Dirección:
                             </div>
-                            <div class="contact-info-text">
+                            <div class="contact-info-text" data-es="C/ Alicante, Alcoy" data-en="C/ Alicante, Alcoy">
                                 C/ Alicante, Alcoy
                             </div>
                         </div>
@@ -679,10 +884,10 @@
                             <div class="contact-info-icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <div class="contact-info-title">
+                            <div class="contact-info-title" data-es="Número de Teléfono:" data-en="Phone Number:">
                                 Número de Teléfono:
                             </div>
-                            <div class="contact-info-text">
+                            <div class="contact-info-text" data-es="+34 644 871 127" data-en="+34 644 871 127">
                                 +34 644 871 127
                             </div>
                         </div>
@@ -692,11 +897,11 @@
                             <div class="contact-info-icon">
                                 <i class="fa fa-envelope"></i>
                             </div>
-                            <div class="contact-info-title">
+                            <div class="contact-info-title" data-es="Correo Electrónico:" data-en="Email:">
                                 Correo Electrónico:
                             </div>
-                            <div class="contact-info-text">
-                                dralonsolutions@gmail.com
+                            <div class="contact-info-text" data-es="info@dralons.com" data-en="info@dralons.com">
+                                info@dralons.com
                             </div>
                         </div>
                     </address>
