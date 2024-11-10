@@ -6,18 +6,3 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Redirigir Páginas
-Redirect 301 /home /#section1
-Redirect 301 /portafolio /#portafolio
-Redirect 301 /sobre-nosotros /#sobre-nosotros
-Redirect 301 /soporte /#precios
-Redirect 301 /basico /#precios
-Redirect 301 /avanzado /#precios
-Redirect 301 /personalizado /#precios
-Redirect 301 /servicios /#service
-Redirect 301 /habilidades /#habilidades
-Redirect 301 /estadisticas /#stat
-Redirect 301 /testimonios /#testimonials
-Redirect 301 /nuestros-clientes /#client
-Redirect 301 /contacto /#contact

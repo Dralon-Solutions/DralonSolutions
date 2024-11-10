@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Dralon Solutions",
+  "url": "https://www.dralons.com",
+  "logo": "https://www.dralons.com/img/favicon.webp",
+  "description": "Dralon Solutions es líder en soluciones digitales personalizadas, ofreciendo servicios de desarrollo web, marketing digital y consultoría.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "España. Alicante",
+    "addressLocality": "Alcoy",
+    "addressRegion": "Alcoy",
+    "postalCode": "03801",
+    "addressCountry": "España"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+34-644-871-127",
+    "contactType": "Customer Service",
+    "areaServed": "ES",
+    "availableLanguage": "Spanish"
+  },
+  "sameAs": [
+    "https://www.facebook.com/dralonsolutions",
+    "https://twitter.com/dralonsolutions",
+    "https://www.linkedin.com/company/dralonsolutions/"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Nombre del Fundador"
+  },
+  "foundingDate": "2024-10-1",
+  "priceRange": "$$$",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Soporte",
+      "description": "Plan de soporte que incluye 1 Hosting, Soporte 24/7, 1 Dominio Incluido y Certificado HTTPS.",
+      "priceCurrency": "EUR",
+      "price": "24.99",
+      "priceValidUntil": "2024-12-31",
+      "url": "https://www.dralons.com/soporte"
+    },
+    {
+      "@type": "Offer",
+      "name": "Básico",
+      "description": "Plan básico que incluye 1 Página Web, SEO simple, 1 Dominio Incluido y WordPress.",
+      "priceCurrency": "EUR",
+      "price": "149.99",
+      "priceValidUntil": "2024-12-31",
+      "url": "https://www.dralons.com/basico"
+    },
+    {
+      "@type": "Offer",
+      "name": "Avanzado",
+      "description": "Plan avanzado que incluye 1 Tienda Web, SEO simple, 1 Dominio Incluido y WordPress.",
+      "priceCurrency": "EUR",
+      "price": "249.99",
+      "priceValidUntil": "2024-12-31",
+      "url": "https://www.dralons.com/avanzado"
+    },
+    {
+      "@type": "Offer",
+      "name": "Personalizado",
+      "description": "Plan personalizado que incluye 1 Web, SEO Personalizado, 1 Dominio Incluido y opciones de personalización.",
+      "priceCurrency": "EUR",
+      "price": "A Consultar",
+      "url": "https://www.dralons.com/personalizado"
+    }
+  ]
+}
